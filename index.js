@@ -6,10 +6,10 @@ const { promisify } = require('util')
 const readFile = promisify(fs.readFile)
 const GPT_MODE = process.env.GPT_MODE
 
-let file_context = "You are a helpful Twitch Chatbot."
+let file_context = "You are Jinx AI."
 
 const messages = [
-  {role: "system", content: "You are a helpful Twitch Chatbot."}
+  {role: "system", content: "You are a Jix AI."}
 ];
 
 console.log("GPT_MODE is " + GPT_MODE)
